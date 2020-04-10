@@ -42,14 +42,14 @@ module.exports = {
         use: [
           (isDev ? 'style-loader' : MiniCssExtractPlugin.loader),
           'css-loader',
-          'postcss-loader'
+          'postcss-loader',
         ]
       }
     ]
   },
   plugins: [
     new MiniCssExtractPlugin({
-      filename: './css/style.[contenthash].css'
+      filename: 'style.[contenthash].css'
     }),
     new OptimizeCssAssetsPlugin({
       assetNameRegExp: /\.css$/g,
