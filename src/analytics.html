@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Сервис для анализа происходящих в мире событий">
+  <meta name="author" content="Иван Маркин">
+  <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.chunks.analytics.css %>">
+  <title>NewsAnalyzer</title>
+</head>
+<body>
+  <header class="header-inner">
+    <div class="header-inner__head">
+      <div class="header-inner__head-content">
+        <a href="index.html"><img class="logo" src="<%=require('./images/news-analyzer-logo-black.svg').default%>" alt="NewsAnalyzer"></a>
+        <nav class="header-inner__menu">
+          <a class="header-inner__menu-item header-inner__menu-item_active" href="index.html">Главная</a>
+          <a class="header-inner__menu-item" href="about.html">О проекте</a>
+        </nav>
+      </div>
+    </div>
+    <div class="header-inner__wrapper">
+      <div class="header-inner__content">
+        <div class="bread-crumbs">
+          <a class="bread-crumbs__link" href="index.html">Главная</a>
+          <span class="bread-crumbs__current-page"> / Аналитика</span>
+        </div>
+        <h2 class="content-title content-title_analytics">Вы спросили: «Путешествия»</h2>
+        <div class="header-inner__summary">
+          <p class="header-inner__summary-title">Новостей за неделю: <b class="header-inner__summary-amount">34 324</b></p>
+          <p class="header-inner__summary-title">Упоминаний в заголовках: <b class="header-inner__summary-amount">235</b></p>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section class="analytics-block">
+    <div class="analytics-block__content">
+      <h2 class="content-small-title">Аналитика по дням</h2>
+      <div class="analytics-table-head">
+        <p class="analytics-table-head__item">Дата<br>(апрель)</p>
+        <p class="analytics-table-head__item">Кол-во упоминаний</p>
+      </div>
+      <div class="analytics-table-scale">
+        <p class="analytics-table-scale__item">0</p>
+        <p class="analytics-table-scale__item">25</p>
+        <p class="analytics-table-scale__item">50</p>
+        <div class="analytics-table-scale__item">
+          <span>75</span>
+          <span>100</span>
+        </div>
+      </div>
+      <div class="analytics-table-diagrams">
+        <p class="analytics-table-diagrams__date">19, пн</p>
+        <div class="analytics-table-diagrams__amount">
+          <span class="analytics-table-diagrams__diagram analytics-table-diagrams__diagram_mo">15</span>
+        </div>
+
+        <p class="analytics-table-diagrams__date">20, вт</p>
+        <div class="analytics-table-diagrams__amount">
+          <span class="analytics-table-diagrams__diagram analytics-table-diagrams__diagram_tu">18</span>
+        </div>
+
+        <p class="analytics-table-diagrams__date">21, ср</p>
+        <div class="analytics-table-diagrams__amount">
+          <span class="analytics-table-diagrams__diagram analytics-table-diagrams__diagram_we">11</span>
+        </div>
+
+        <p class="analytics-table-diagrams__date">22, чт</p>
+        <div class="analytics-table-diagrams__amount">
+          <span class="analytics-table-diagrams__diagram analytics-table-diagrams__diagram_th">39</span>
+        </div>
+
+        <p class="analytics-table-diagrams__date">23, пт</p>
+        <div class="analytics-table-diagrams__amount">
+          <span class="analytics-table-diagrams__diagram analytics-table-diagrams__diagram_fr">75</span>
+        </div>
+
+        <p class="analytics-table-diagrams__date">24, сб</p>
+        <div class="analytics-table-diagrams__amount">
+          <span class="analytics-table-diagrams__diagram analytics-table-diagrams__diagram_sa">33</span>
+        </div>
+
+        <p class="analytics-table-diagrams__date">25, вс</p>
+        <div class="analytics-table-diagrams__amount">
+          <span class="analytics-table-diagrams__diagram analytics-table-diagrams__diagram_su">44</span>
+        </div>
+      </div>
+      <div class="analytics-table-scale">
+        <p class="analytics-table-scale__item">0</p>
+        <p class="analytics-table-scale__item">25</p>
+        <p class="analytics-table-scale__item">50</p>
+        <div class="analytics-table-scale__item">
+          <span>75</span>
+          <span>100</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer__content">
+      <p class="footer__copyright">© 2020 NewsAnalyzer</p>
+      <nav class="footer__menu">
+        <a class="footer__menu-item" href="index.html">Главная</a>
+        <a class="footer__menu-item" href="about.html">О проекте</a>
+        <a class="footer__menu-item" href="https://praktikum.yandex.ru" target="_blank">Яндекс.Практикум</a>
+      </nav>
+      <div class="footer__social">
+        <a href="https://github.com/ivan-markin" class="footer__social-item footer__social-item_github" target="_blank"></a>
+        <a href="https://www.instagram.com/dzhansanfeng" class="footer__social-item footer__social-item_instagram" target="_blank"></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="<%= htmlWebpackPlugin.files.chunks.analytics.entry %>"></script>
+</body>
+</html>

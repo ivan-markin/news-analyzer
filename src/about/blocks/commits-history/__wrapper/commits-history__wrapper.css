@@ -1,0 +1,16 @@
+.commits-history__wrapper {
+  padding: 0 80px;
+  box-sizing: border-box;
+}
+
+@media (max-width: 1000px) {
+  .commits-history__wrapper {
+    padding: 0 40px;
+  }
+}
+
+@media (max-width: 416px) {
+  .commits-history__wrapper {
+    padding: 0 15px;
+  }
+}

@@ -1,0 +1,26 @@
+.header__title {
+  font-family: 'Robotoslab', sans-serif;
+  font-weight: 400;
+  font-size: 3.75rem;
+  line-height: 4rem;
+  color: #fff;
+  margin: 0 0 32px 0;
+}
+
+@media (max-width: 768px) {
+  .header__title {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+    margin: 0 0 20px 0;
+    width: 60%;
+  }
+}
+
+@media (max-width: 416px) {
+  .header__title {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+    margin: 0 0 20px 0;
+    width: 100%;
+  }
+}

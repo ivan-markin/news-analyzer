@@ -1,0 +1,11 @@
+.carousel-cell__personal-info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  .carousel-cell__personal-info {
+    margin-bottom: 15px;
+  }
+}

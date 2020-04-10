@@ -1,0 +1,15 @@
+@import url(./__wrapper/commits-history__wrapper.css);
+@import url(./__header/commits-history__header.css);
+@import url(./__slider-block/commits-history__slider-block.css);
+@import url(./__button/commits-history__button.css);
+
+.commits-history {
+  padding: 80px 0;
+  background-color: #f5f6f7;
+}
+
+@media (max-width: 1000px) {
+  .commits-history {
+    padding: 40px 0 30px 0;
+  }
+}

@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Сервис для анализа происходящих в мире событий">
+  <meta name="author" content="Иван Маркин">
+  <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.chunks.about.css %>">
+  <title>NewsAnalyzer</title>
+</head>
+<body>
+  <header class="header-about__head">
+    <div class="header-about__head-content">
+      <a href="index.html"><img class="logo logo_main" src="<%=require('./images/news-analyzer-logo-black.svg').default%>" alt="NewsAnalyzer"></a>
+      <nav class="header-about__menu">
+        <a class="header-about__menu-item" href="index.html">Главная</a>
+        <a class="header-about__menu-item header-about__menu-item_active">О проекте</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="to-clients">
+    <div class="to-clients__wrapper">
+      <div class="to-clients__content">
+        <h1 class="content-title">Клиентам</h1>
+        <div class="to-clients__text">
+          <p class="content-paragraph-text">Этот сайт — дипломный проект студента Яндекс.Практикума. Его цель — показать, чему научился студент, какими технологиями владеет.</p>
+          <p class="content-paragraph-text">Вёрстка сайта выполнена по методологии БЭМ. Это делает сайт гибким и масштабируемым. Кроме того, добавлять новые страницы и функциональность проще и быстрее, чем в проектах, выполненных по другим методологиям. Также сайт проще и дешевле поддерживать.</p>
+          <p class="content-paragraph-text">Карточки с новостями приходят с сервера и обрабатываются асинхронно. То есть сайт продолжает работать, пока от сервера приходит ответ. Это повышает удобство использования сервиса.</p>
+          <p class="content-paragraph-text">При создании проекта была использована сборка технологией Webpack. Это современный подход к разработке сайтов. Код оптимизируется, а значит, сайт работает быстрее. Также сайт работает в старых браузерах. Даже если посетители — пользователи старых операционных систем, у них не будет проблем с отображением. А значит, потенциальная аудитория возрастает.</p>
+          <p class="content-paragraph-text">Проект был проверен экспертами Яндекс.Практикума. Если вашему бизнесу нужен сайт, мы рекомендуем обратиться к этому студенту.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="technologies">
+    <div class="technologies__content">
+      <h2 class="technologies__title content-title">Используемые технологии</h2>
+      <div class="technologies__badges">
+        <div class="technologies__badge technologies__badge_html"><span>HTML</span></div>
+        <div class="technologies__badge technologies__badge_css"><span>CSS</span></div>
+        <div class="technologies__badge technologies__badge_js"><span>JavaScript</span></div>
+        <div class="technologies__badge technologies__badge_webpack"><span>Webpack</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="about">
+    <div class="about__wrapper">
+      <div class="about__image"></div>
+      <div class="about__description">
+        <h2 class="content-title">Об авторе</h2>
+        <div class="about__description-text">
+          <p class="content-paragraph-text">Это блок с описанием автора проекта. Здесь следует указать, как вас зовут, чем вы занимаетесь, какими технологиями разработки владеете.</p>
+          <p class="content-paragraph-text">Также можно рассказать о процессе обучения в Практикуме, чему вы тут научились, и чем можете помочь потенциальным заказчикам.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="commits-history">
+    <div class="commits-history__wrapper">
+      <div class="commits-history__header">
+        <h2 class="content-title">История коммитов из Github</h2>
+        <a class="button-link" href="#">Открыть в Github</a>
+      </div>
+    </div>
+    <div class="commits-history__slider-block">
+      <div class="main-carousel">
+        <div class="main-carousel__side-fade main-carousel__side-fade_left"></div>
+        <div class="main-carousel__side-fade main-carousel__side-fade_right"></div>
+        <div class="carousel-cell">
+          <p class="carousel-cell__date">14 августа, 2019</p>
+          <div class="carousel-cell__personal-info">
+            <div class="carousel-cell__avatar"></div>
+            <div class="carousel-cell__name-block">
+              <h3 class="content-small-title content-small-title_carousel-cell">Антон Долинин</h3>
+              <a class="carousel-cell__e-mail" href="">anton@yandex.ru</a>
+            </div>
+          </div>
+          <p class="carousel-cell__commit-text">
+            Emmet (formerly Zen Coding) is a web-
+            developer’s toolkit that can greatly improve your HTML & CSS workflow.
+          </p>
+        </div>
+        <div class="carousel-cell">
+          <p class="carousel-cell__date">14 августа, 2019</p>
+          <div class="carousel-cell__personal-info">
+            <div class="carousel-cell__avatar"></div>
+            <div class="carousel-cell__name-block">
+              <h3 class="content-small-title content-small-title_carousel-cell">Антон Долинин</h3>
+              <a class="carousel-cell__e-mail" href="">anton@yandex.ru</a>
+            </div>
+          </div>
+          <p class="carousel-cell__commit-text">
+            Emmet (formerly Zen Coding) is a web-
+            developer’s toolkit that can greatly improve your HTML & CSS workflow.
+            Emmet (formerly Zen Coding) is a web-
+            developer’s toolkit that can greatly improve your HTML & CSS workflow.
+            Emmet (formerly Zen Coding) is a web-
+            developer’s toolkit that can greatly improve your HTML & CSS workflow.
+          </p>
+        </div>
+        <div class="carousel-cell">
+          <p class="carousel-cell__date">14 августа, 2019</p>
+          <div class="carousel-cell__personal-info">
+            <div class="carousel-cell__avatar"></div>
+            <div class="carousel-cell__name-block">
+              <h3 class="content-small-title content-small-title_carousel-cell">Антон Долинин</h3>
+              <a class="carousel-cell__e-mail" href="">anton@yandex.ru</a>
+            </div>
+          </div>
+          <p class="carousel-cell__commit-text">
+            Emmet (formerly Zen Coding) is a web-
+            developer’s toolkit that can greatly improve your HTML & CSS workflow.
+          </p>
+        </div>
+        <div class="carousel-cell">
+          <p class="carousel-cell__date">14 августа, 2019</p>
+          <div class="carousel-cell__personal-info">
+            <div class="carousel-cell__avatar"></div>
+            <div class="carousel-cell__name-block">
+              <h3 class="content-small-title content-small-title_carousel-cell">Антон Долинин</h3>
+              <a class="carousel-cell__e-mail" href="">anton@yandex.ru</a>
+            </div>
+          </div>
+          <p class="carousel-cell__commit-text">
+            Emmet (formerly Zen Coding) is a web-
+            developer’s toolkit that can greatly improve your HTML & CSS workflow.
+          </p>
+        </div>
+        <div class="carousel-cell">
+          <p class="carousel-cell__date">14 августа, 2019</p>
+          <div class="carousel-cell__personal-info">
+            <div class="carousel-cell__avatar"></div>
+            <div class="carousel-cell__name-block">
+              <h3 class="content-small-title content-small-title_carousel-cell">Антон Долинин</h3>
+              <a class="carousel-cell__e-mail" href="">anton@yandex.ru</a>
+            </div>
+          </div>
+          <p class="carousel-cell__commit-text">
+            Emmet (formerly Zen Coding) is a web-
+            developer’s toolkit that can greatly improve your HTML & CSS workflow.
+          </p>
+        </div>
+      </div>
+      <a class="commits-history__button" href="#">Открыть в Githab</a>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer__content">
+      <p class="footer__copyright">© 2020 NewsAnalyzer</p>
+      <nav class="footer__menu">
+        <a class="footer__menu-item" href="index.html">Главная</a>
+        <a class="footer__menu-item" href="about.html">О проекте</a>
+        <a class="footer__menu-item" href="https://praktikum.yandex.ru" target="_blank">Яндекс.Практикум</a>
+      </nav>
+      <div class="footer__social">
+        <a href="https://github.com/ivan-markin" class="footer__social-item footer__social-item_github" target="_blank"></a>
+        <a href="https://www.instagram.com/dzhansanfeng" class="footer__social-item footer__social-item_instagram" target="_blank"></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="<%= htmlWebpackPlugin.files.chunks.about.entry %>"></script>
+</body>
+</html>

@@ -1,0 +1,13 @@
+.footer__social {
+  width: 65px;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 416px) {
+  .footer__social {
+    position: absolute;
+    right: 15px;
+    top: 25px;
+  }
+}

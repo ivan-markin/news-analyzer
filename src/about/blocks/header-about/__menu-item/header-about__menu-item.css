@@ -1,0 +1,33 @@
+.header-about__menu-item {
+  padding: 0 0 32px 0;
+  height: 50px;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  font-size: 1.125rem;
+  line-height: 1.5rem;
+  color: #b6bcbf;
+  text-decoration: none;
+  transition: color .2s;
+}
+
+.header-about__menu-item:hover {
+  color: #1a1b22;
+}
+
+.header-about__menu-item_active {
+  border-bottom: #1a1b22 3px solid;
+  color: #1a1b22;
+}
+
+@media (max-width: 416px) {
+  .header-about__menu-item {
+    padding: 0 0 32px 0;
+    height: 38px;
+    font-size: 1rem;
+  }
+  .header-about__menu-item_active {
+    border-bottom: #1a1b22 3px solid;
+    color: #1a1b22;
+  }
+}

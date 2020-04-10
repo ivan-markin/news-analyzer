@@ -1,0 +1,12 @@
+.header-about__head-content {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1233px;
+}
+
+@media (min-width: 1440px) {
+  .header-about__head-content {
+    max-width: none;
+  }
+}

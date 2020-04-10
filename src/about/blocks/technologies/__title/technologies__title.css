@@ -1,0 +1,17 @@
+.technologies__title {
+  width: 520px;
+}
+
+@media (max-width: 880px) {
+  .technologies__title {
+    width: 336px;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 416px) {
+  .technologies__title {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+}

@@ -1,0 +1,28 @@
+@import url(./__badges/technologies__badges.css);
+@import url(./__title/technologies__title.css);
+@import url(./__content/technologies__content.css);
+@import url(./__badge/technologies__badge.css);
+
+.technologies {
+  background: #f5f6f7;
+  padding: 90px 80px 95px 80px;
+  box-sizing: border-box;
+}
+
+@media (max-width: 1000px) {
+  .technologies {
+    padding: 90px 40px 95px 40px;
+  }
+}
+
+@media (max-width: 880px) {
+  .technologies {
+    padding: 40px;
+  }
+}
+
+@media (max-width: 416px) {
+  .technologies {
+    padding: 40px 15px 15px 15px;
+  }
+}

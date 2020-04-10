@@ -1,0 +1,44 @@
+@import url(./__avatar/carousel-cell__avatar.css);
+@import url(./__personal-info/carousel-cell__personal-info.css);
+@import url(./__e-mail/carousel-cell__e-mail.css);
+@import url(./__date/carousel-cell__date.css);
+@import url(./__commit-text/carousel-cell__commit-text.css);
+
+.carousel-cell {
+  width: 400px;
+  height: 288px;
+  background-color: #fff;
+  border-radius: 16px;
+  margin: 0 15px 0 0;
+  padding: 25px;
+  box-sizing: border-box;
+  transition: box-shadow .3s;
+}
+
+.carousel-cell:hover {
+  box-shadow: 0px 20px 46px -31px #adadad;
+  /* transform: translateY(-2px); */
+}
+
+@media (max-width: 768px) {
+  .carousel-cell {
+    width: 336px;
+    height: 242px;
+    transform: translateX(40px);
+  }
+  .carousel-cell:hover {
+    box-shadow: none;
+  }
+}
+
+@media (max-width: 416px) {
+  .carousel-cell {
+    width: calc(100% - 30px);
+    min-height: 264px;
+    margin: 0 8px 0 0;
+    transform: translateX(15px);
+  }
+  .carousel-cell:hover {
+    box-shadow: none;
+  }
+}

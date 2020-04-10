@@ -1,0 +1,18 @@
+.technologies__badges {
+  display: flex;
+}
+
+@media (max-width: 880px) {
+  .technologies__badges {
+    width: 100%;
+    justify-content: space-between;
+  }
+}
+
+@media (max-width: 416px) {
+  .technologies__badges {
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+}

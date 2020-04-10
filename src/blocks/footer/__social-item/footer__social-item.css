@@ -1,0 +1,20 @@
+.footer__social-item {
+  display: block;
+  width: 20px;
+  height: 20px;
+  transition: opacity .2s;
+}
+
+.footer__social-item:hover {
+  opacity: .7;
+}
+
+.footer__social-item_github {
+  background: url(../../../images/github-icon.svg) no-repeat;
+  background-size: contain;
+}
+
+.footer__social-item_instagram {
+  background: url(../../../images/instagram-icon.svg) no-repeat;
+  background-size: contain;
+}
