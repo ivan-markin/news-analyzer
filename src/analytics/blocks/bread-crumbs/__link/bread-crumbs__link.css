@@ -1,9 +1,0 @@
-.bread-crumbs__link {
-  color: #1a1b22;
-  text-decoration: none;
-  transition: opacity .2s;
-}
-
-.bread-crumbs__link:hover {
-  opacity: .7;
-}
