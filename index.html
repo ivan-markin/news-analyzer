@@ -4,18 +4,18 @@
   <meta charset="UTF-8">
   <meta name="description" content="Сервис для анализа происходящих в мире событий">
   <meta name="author" content="Иван Маркин">
-  <link rel="stylesheet" href="style.cb0bfcecf84a042adfb6.css">
+  <link rel="stylesheet" href="./css/style.f1b1348d7ed5a3a348f8.css">
   <title>NewsAnalyzer</title>
 </head>
 <body>
   <header class="header">
     <div class="header__head">
       <div class="header__head-content">
-        <img class="logo logo_main" src="./images/news-analyzer-logo.svg" alt="NewsAnalyzer">
-        <nav class="header__menu">
-          <a class="header__menu-item header__menu-item_active">Главная</a>
-          <a class="header__menu-item" href="about.html">О проекте</a>
-        </nav>
+        <img class="logo logo_main" src="../images/news-analyzer-logo.svg" alt="NewsAnalyzer">
+        <ul class="header__menu">
+          <li class="header__menu-item header__menu-item_active"><a class="header__menu-link">Главная</a></li>
+          <li class="header__menu-item"><a class="header__menu-link" href="about.html">О проекте</a></li>
+        </ul>
       </div>
     </div>
     <div class="header__wrapper">
@@ -23,8 +23,8 @@
         <h1 class="header__title">Что в мире творится?</h1>
         <p class="header__subtitle">Введите в поиске любую тему и узнайте, насколько популярной она была в новостях за прошедшую неделю.</p>
         <form class="header-form">
-          <input class="header-form__input" type="text" placeholder="Введите тему новости">
-          <button class="header-form__button">Искать</button>
+          <input class="header-form__input" name="keyword" type="text" placeholder="Введите тему новости" required>
+          <button class="header-form__button" name="submit">Искать</button>
         </form>
       </div>
     </div>
@@ -39,7 +39,7 @@
         </div>
         <div class="search-results__cards">
           <div class="search-results__card">
-            <img class="search-results__card-image" src="./images/news-sample-pic.jpg" alt="">
+            <img class="search-results__card-image" src="../images/news-sample-pic.jpg" alt="Парки — национальное достояние">
             <p class="search-results__card-date">4 апреля, 2020</p>
             <h3 class="search-results__title search-results__title_card">Парки — национальное достояние</h3>
             <p class="search-results__card-description">
@@ -50,7 +50,7 @@
             <p class="search-results__card-agency-name">Лента.ру</p>
           </div>
           <div class="search-results__card">
-            <img class="search-results__card-image" src="./images/news-sample-pic-2.jpg" alt="">
+            <img class="search-results__card-image" src="../images/news-sample-pic-2.jpg" alt="Лесные огоньки: история одной фотографии">
             <p class="search-results__card-date">4 апреля, 2020</p>
             <h3 class="search-results__title search-results__title_card">Лесные огоньки: история одной фотографии</h3>
             <p class="search-results__card-description">
@@ -61,7 +61,7 @@
             <p class="search-results__card-agency-name">Лента.ру</p>
           </div>
           <div class="search-results__card">
-            <img class="search-results__card-image" src="./images/news-sample-pic-3.jpg" alt="">
+            <img class="search-results__card-image" src="../images/news-sample-pic-3.jpg" alt="«Первозданная тайга»: новый фотопроект Игоря Шпиленка">
             <p class="search-results__card-date">4 апреля, 2020</p>
             <h3 class="search-results__title search-results__title_card">«Первозданная тайга»: новый фотопроект Игоря Шпиленка</h3>
             <p class="search-results__card-description">
@@ -71,7 +71,7 @@
             <p class="search-results__card-agency-name">Лента.ру</p>
           </div>
           <div class="search-results__card">
-            <img class="search-results__card-image" src="./images/news-sample-pic-4.jpg" alt="">
+            <img class="search-results__card-image" src="../images/news-sample-pic-4.jpg" alt="Парки — национальное достояние">
             <p class="search-results__card-date">4 апреля, 2020</p>
             <h3 class="search-results__title search-results__title_card">Парки — национальное достояние</h3>
             <p class="search-results__card-description">
@@ -82,7 +82,7 @@
             <p class="search-results__card-agency-name">Лента.ру</p>
           </div>
           <div class="search-results__card">
-            <img class="search-results__card-image" src="./images/news-sample-pic-5.jpg" alt="">
+            <img class="search-results__card-image" src="../images/news-sample-pic-5.jpg" alt="Лесные огоньки: история одной фотографии">
             <p class="search-results__card-date">4 апреля, 2020</p>
             <h3 class="search-results__title search-results__title_card">Лесные огоньки: история одной фотографии</h3>
             <p class="search-results__card-description">
@@ -93,7 +93,7 @@
             <p class="search-results__card-agency-name">Лента.ру</p>
           </div>
           <div class="search-results__card">
-            <img class="search-results__card-image" src="./images/news-sample-pic-6.jpg" alt="">
+            <img class="search-results__card-image" src="../images/news-sample-pic-6.jpg" alt="«Первозданная тайга»: новый фотопроект Игоря Шпиленка">
             <p class="search-results__card-date">4 апреля, 2020</p>
             <h3 class="search-results__title search-results__title_card">«Первозданная тайга»: новый фотопроект Игоря Шпиленка</h3>
             <p class="search-results__card-description">
@@ -106,7 +106,7 @@
         <button class="search-results__show-more-button">Показать ещё</button>
       </div>
       <div class="search-results__not-found hidden">
-        <img class="search-results__not-found-icon" src="./images/notfound.svg" alt="">
+        <img class="search-results__not-found-icon" src="../images/notfound.svg" alt="Ничего не найдено">
         <h3 class="search-results__title">Ничего не найдено</h3>
         <p class="search-results__subtitle">К сожалению по вашему запросу ничего не найдено.</p>
       </div>
@@ -133,11 +133,11 @@
   <footer class="footer">
     <div class="footer__content">
       <p class="footer__copyright">© 2020 NewsAnalyzer</p>
-      <nav class="footer__menu">
-        <a class="footer__menu-item" href="index.html">Главная</a>
-        <a class="footer__menu-item" href="about.html">О проекте</a>
-        <a class="footer__menu-item" href="https://praktikum.yandex.ru" target="_blank">Яндекс.Практикум</a>
-      </nav>
+      <ul class="footer__menu">
+        <li class="footer__menu-item"><a class="footer__menu-link" href="index.html">Главная</a></li>
+        <li class="footer__menu-item"><a class="footer__menu-link" href="about.html">О проекте</a></li>
+        <li class="footer__menu-item"><a class="footer__menu-link" href="https://praktikum.yandex.ru" target="_blank">Яндекс.Практикум</a></li>
+      </ul>
       <div class="footer__social">
         <a href="https://github.com/ivan-markin" class="footer__social-item footer__social-item_github" target="_blank"></a>
         <a href="https://www.instagram.com/dzhansanfeng" class="footer__social-item footer__social-item_instagram" target="_blank"></a>
