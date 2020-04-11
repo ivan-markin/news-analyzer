@@ -39,8 +39,8 @@
   margin: 0;
 }
 
-/* .header-form:hover {
+.header-form-animate {
   animation-name: ripple;
   animation-duration: .5s;
   animation-timing-function: ease;
-} */
+}

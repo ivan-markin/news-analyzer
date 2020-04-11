@@ -1,0 +1,28 @@
+.footer__menu-link {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.125rem;
+  line-height: 1.5rem;
+  font-weight: 400;
+  color: #1a1b22;
+  text-decoration: none;
+  transition: opacity .2s;
+}
+
+.footer__menu-link:hover {
+  opacity: .7;
+}
+
+@media (max-width: 750px) {
+  .footer__menu-link {
+    font-size: 1rem;
+    line-height: 1.125rem;
+    font-weight: 400;
+  }
+}
+
+@media (max-width: 660px) {
+  .footer__menu-link {
+    font-size: 1.125rem;
+    line-height: 3rem;
+  }
+}

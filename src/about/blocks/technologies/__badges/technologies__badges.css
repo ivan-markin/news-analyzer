@@ -9,7 +9,7 @@
   }
 }
 
-@media (max-width: 416px) {
+@media (max-width: 470px) {
   .technologies__badges {
     width: 100%;
     justify-content: space-around;

@@ -3,6 +3,9 @@
   align-items: flex-end;
   justify-content: space-between;
   width: 188px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 @media (max-width: 416px) {

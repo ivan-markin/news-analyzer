@@ -4,6 +4,14 @@
   justify-content: space-between;
 }
 
+@media (max-width: 660px) {
+  .footer__social {
+    position: absolute;
+    right: 40px;
+    top: 25px;
+  }
+}
+
 @media (max-width: 416px) {
   .footer__social {
     position: absolute;

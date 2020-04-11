@@ -1,22 +1,5 @@
 .header-inner__menu-item {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 600;
-  font-size: 1.125rem;
-  line-height: 1.5rem;
-  color: #b6bcbf;
-  text-decoration: none;
-  transition: color .2s;
+  list-style: none;
+  margin: 0;
 }
 
-.header-inner__menu-item:hover {
-  color: #1a1b22;
-}
-
-@media (max-width: 416px) {
-  .header-inner__menu-item {
-    font-size: 1rem;
-  }
-  .header-inner__menu-item:hover {
-    color: #b6bcbf;
-  }
-}

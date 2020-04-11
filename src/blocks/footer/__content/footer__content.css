@@ -8,10 +8,8 @@
   align-items: center;
 }
 
-@media (max-width: 416px) {
+@media (max-width: 660px) {
   .footer__content {
-    max-width: 1233px;
-    width: 100%;
     min-height: 224px;
     flex-direction: column-reverse;
     align-items: flex-start;

@@ -1,7 +1,7 @@
 .header-form__input {
   width: calc(100% - 30px);
   height: 64px;
-  border-radius: 32px 0 0 32px;
+  border-radius: 32px;
   border-width: 1px;
   border-style: solid;
   border-color: #d1d2d6;
@@ -10,6 +10,7 @@
   font-family: 'Roboto', sans-serif;
   font-size: 1rem;
   color: #1a1b22;
+  transition: transform .3s;
 }
 
 .header-form__input::placeholder {
@@ -20,6 +21,8 @@
 
 .header-form__input:focus {
   outline: none;
+  transform: scaleY(1.1) scaleX(1.12);
+  border-radius: 32px;
 }
 
 @media (max-width: 768px) {

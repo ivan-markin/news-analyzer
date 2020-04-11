@@ -2,6 +2,7 @@
 @import url(./__menu/header__menu.css);
 @import url(./__head-content/header__head-content.css);
 @import url(./__menu-item/header__menu-item.css);
+@import url(./__menu-link/header__menu-link.css);
 @import url(./__title-block/header__title-block.css);
 @import url(./__title/header__title.css);
 @import url(./__subtitle/header__subtitle.css);

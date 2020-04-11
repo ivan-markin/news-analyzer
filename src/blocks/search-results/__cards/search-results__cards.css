@@ -12,7 +12,16 @@
   }
 }
 
-@media (max-width: 416px) {
+@media (max-width: 690px) {
+  .search-results__cards {
+    grid-template-columns: repeat(2, 1fr);;
+    grid-auto-rows: auto;
+    grid-gap: 15px;
+    margin-bottom: 35px;
+  }
+}
+
+@media (max-width: 470px) {
   .search-results__cards {
     grid-template-columns: 1fr;
     grid-auto-rows: auto;

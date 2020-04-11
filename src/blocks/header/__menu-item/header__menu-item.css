@@ -2,13 +2,6 @@
   padding: 0 0 32px 0;
   height: 50px;
   box-sizing: border-box;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 600;
-  font-size: 1.125rem;
-  line-height: 1.5rem;
-  color: #b6bcbf;
-  text-decoration: none;
-  transition: color .2s;
 }
 
 .header__menu-item:hover {
