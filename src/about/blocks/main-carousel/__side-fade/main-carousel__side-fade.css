@@ -1,0 +1,23 @@
+.main-carousel__side-fade {
+  position: absolute;
+  top: 0;
+  width: 88px;
+  height: 288px;
+  z-index: 10;
+}
+
+.main-carousel__side-fade_left {
+  left: 0;
+  background-image: linear-gradient(to right, #fff, rgba(255, 255, 255, 0));
+}
+
+.main-carousel__side-fade_right {
+  right: 0;
+  background-image: linear-gradient(to left, #fff, rgba(255, 255, 255, 0));
+}
+
+@media (max-width: 768px) {
+  .main-carousel__side-fade {
+    display: none;
+  }
+}

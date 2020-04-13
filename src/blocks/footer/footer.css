@@ -1,0 +1,25 @@
+@import url(./__social/footer__social.css);
+@import url(./__social-item/footer__social-item.css);
+@import url(./__menu/footer__menu.css);
+@import url(./__menu-item/footer__menu-item.css);
+@import url(./__menu-link/footer__menu-link.css);
+@import url(./__copyright/footer__copyright.css);
+@import url(./__content/footer__content.css);
+
+.footer {
+  padding: 0 80px;
+  box-sizing: border-box;
+  position: relative;
+}
+
+@media (max-width: 1000px) {
+  .footer {
+    padding: 0 40px;
+  }
+}
+
+@media (max-width: 416px) {
+  .footer {
+    padding: 10px 15px 0 15px;
+  }
+}

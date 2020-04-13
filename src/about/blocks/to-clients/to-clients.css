@@ -1,0 +1,25 @@
+@import url(./__wrapper/to-clients__wrapper.css);
+@import url(./__text/to-clients__text.css);
+
+.to-clients {
+  padding: 90px 80px 100px 80px;
+  box-sizing: border-box;
+}
+
+@media (max-width: 1000px) {
+  .to-clients {
+    padding: 60px 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  .to-clients {
+    padding: 40px 40px 60px 40px;
+  }
+}
+
+@media (max-width: 416px) {
+  .to-clients {
+    padding: 25px 15px 32px 15px;
+  }
+}

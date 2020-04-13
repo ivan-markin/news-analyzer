@@ -1,0 +1,19 @@
+@import url(./fonts/fonts.css);
+@import url(./normalize.css);
+
+@import url(./blocks/header/header.css);
+@import url(./blocks/logo/logo.css);
+@import url(./blocks/header-form/header-form.css);
+@import url(./blocks/content/content.css);
+@import url(./blocks/content-title/content-title.css);
+@import url(./blocks/content-small-title/content-small-title.css);
+@import url(./blocks/content-paragraph-text/content-paragraph-text.css);
+@import url(./blocks/search-results/search-results.css);
+@import url(./blocks/about/about.css);
+@import url(./blocks/footer/footer.css);
+@import url(./blocks/button-link/button-link.css);
+@import url(./blocks/hidden/hidden.css);
+
+body {
+  min-width: 320px;
+}

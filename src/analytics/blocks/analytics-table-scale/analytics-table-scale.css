@@ -1,0 +1,13 @@
+@import url(./__item/analytics-table-scale__item.css);
+
+.analytics-table-scale {
+  width: calc(100% - 118px);
+  margin-left: 118px;
+  display: flex;
+}
+
+@media (max-width: 416px) {
+  .analytics-table-scale {
+    display: none;
+  }
+}

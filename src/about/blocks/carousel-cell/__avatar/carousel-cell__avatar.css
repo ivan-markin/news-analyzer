@@ -1,0 +1,17 @@
+.carousel-cell__avatar {
+  width: 64px;
+  height: 64px;
+  min-width: 64px;
+  background: url(../../../../images/carousel-sell-avatar.jpg) no-repeat;
+  background-size: cover;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+@media (max-width: 768px) {
+  .carousel-cell__avatar {
+    width: 48px;
+    height: 48px;
+    min-width: 48px;
+  }
+}

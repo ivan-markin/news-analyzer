@@ -1,0 +1,12 @@
+.search-results__results {
+  width: 100%;
+  max-width: 1233px;
+  margin: 0 auto;
+  padding-bottom: 80px;
+}
+
+@media (max-width: 768px) {
+  .search-results__results {
+    padding-bottom: 40px;
+  }
+}

@@ -1,0 +1,14 @@
+.header__menu {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  width: 188px;
+  list-style: none;
+  margin: 0;
+}
+
+@media (max-width: 416px) {
+  .header__menu {
+    width: 146px;
+  }
+}

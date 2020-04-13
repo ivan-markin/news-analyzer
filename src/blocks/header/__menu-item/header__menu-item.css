@@ -1,0 +1,26 @@
+.header__menu-item {
+  padding: 0 0 32px 0;
+  height: 50px;
+  box-sizing: border-box;
+}
+
+.header__menu-item:hover {
+  color: #fff;
+}
+
+.header__menu-item_active {
+  border-bottom: #fff 3px solid;
+  color: #fff;
+}
+
+@media (max-width: 416px) {
+  .header__menu-item {
+    padding: 0 0 32px 0;
+    height: 38px;
+    font-size: 1rem;
+  }
+  .header__menu-item_active {
+    border-bottom: #fff 3px solid;
+    color: #fff;
+  }
+}

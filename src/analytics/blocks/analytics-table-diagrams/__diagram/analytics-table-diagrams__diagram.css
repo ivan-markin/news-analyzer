@@ -1,0 +1,35 @@
+.analytics-table-diagrams__diagram {
+  background-color: #2f71e5;
+  height: 24px;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-size: .75rem;
+  font-weight: 700;
+  line-height: 1rem;
+  display: flex;
+  align-items: center;
+  padding-left: 7px;
+  box-sizing: border-box;
+}
+
+.analytics-table-diagrams__diagram_mo {
+  width: 15%;
+}
+.analytics-table-diagrams__diagram_tu {
+  width: 18%;
+}
+.analytics-table-diagrams__diagram_we {
+  width: 11%;
+}
+.analytics-table-diagrams__diagram_th {
+  width: 39%;
+}
+.analytics-table-diagrams__diagram_fr {
+  width: 75%;
+}
+.analytics-table-diagrams__diagram_sa {
+  width: 33%;
+}
+.analytics-table-diagrams__diagram_su {
+  width: 44%;
+}

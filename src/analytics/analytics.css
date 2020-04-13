@@ -1,0 +1,13 @@
+@import url(../fonts/fonts.css);
+@import url(../normalize.css);
+
+@import url(./blocks/header-inner/header-inner.css);
+@import url(./blocks/bread-crumbs/bread-crumbs.css);
+@import url(./blocks/analytics-block/analytics-block.css);
+@import url(./blocks/analytics-table-head/analytics-table-head.css);
+@import url(./blocks/analytics-table-scale/analytics-table-scale.css);
+@import url(./blocks/analytics-table-diagrams/analytics-table-diagrams.css);
+
+body {
+  min-width: 320px;
+}

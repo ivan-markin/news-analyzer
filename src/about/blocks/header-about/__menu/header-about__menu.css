@@ -1,0 +1,15 @@
+.header-about__menu {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  width: 188px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+@media (max-width: 416px) {
+  .header-about__menu {
+    width: 146px;
+  }
+}
