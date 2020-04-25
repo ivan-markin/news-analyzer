@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="description" content="Сервис для анализа происходящих в мире событий">
   <meta name="author" content="Иван Маркин">
-  <link rel="stylesheet" href="./css/style.eec08629d06c49a877d2.css">
+  <link rel="stylesheet" href="./css/style.4983d2172e893ebb5dcc.css">
   <title>NewsAnalyzer</title>
 </head>
 <body>
@@ -24,7 +24,7 @@
         <p class="header__subtitle">Введите в поиске любую тему и узнайте, насколько популярной она была в новостях за прошедшую неделю.</p>
         <form class="header-form" novalidate>
           <input class="header-form__input" name="keyword" type="text" placeholder="Введите тему новости" required>
-          <button class="header-form__button" name="submit" disabled>Искать</button>
+          <button class="header-form__button" name="submit">Искать</button>
           <p class="error-bubble">Нужно ввести ключевое слово</p>
         </form>
       </div>
@@ -39,70 +39,10 @@
           <a class="button-link" href="./analytics.html">Посмотреть аналитику</a>
         </div>
         <div class="search-results__cards">
-          <!-- <div class="search-results__card">
-            <img class="search-results__card-image" src="./images/news-sample-pic.jpg" alt="Парки — национальное достояние">
-            <p class="search-results__card-date">4 апреля, 2020</p>
-            <h3 class="search-results__title search-results__title_card">Парки — национальное достояние</h3>
-            <p class="search-results__card-description">
-              В 2016 году Америка отмечала важный юбилей:
-              сто лет назад здесь начала складываться система национальных парков —
-              охраняемых территорий, где и сегодня каждый может приобщиться к природе.
-            </p>
-            <p class="search-results__card-agency-name">Лента.ру</p>
-          </div>
-          <div class="search-results__card">
-            <img class="search-results__card-image" src="./images/news-sample-pic-2.jpg" alt="Лесные огоньки: история одной фотографии">
-            <p class="search-results__card-date">4 апреля, 2020</p>
-            <h3 class="search-results__title search-results__title_card">Лесные огоньки: история одной фотографии</h3>
-            <p class="search-results__card-description">
-              Фотограф отвлеклась от освещения суровой политической реальности Мексики,
-              чтобы запечатлеть ускользающую красоту одного
-              из местных чудес природы.
-            </p>
-            <p class="search-results__card-agency-name">Лента.ру</p>
-          </div>
-          <div class="search-results__card">
-            <img class="search-results__card-image" src="./images/news-sample-pic-3.jpg" alt="«Первозданная тайга»: новый фотопроект Игоря Шпиленка">
-            <p class="search-results__card-date">4 апреля, 2020</p>
-            <h3 class="search-results__title search-results__title_card">«Первозданная тайга»: новый фотопроект Игоря Шпиленка</h3>
-            <p class="search-results__card-description">
-              Знаменитый фотограф снимает первозданные леса России, чтобы рассказать о необходимости их сохранения.
-              В этот раз он отправился в Двинско-Пинежскую тайгу, где...
-            </p>
-            <p class="search-results__card-agency-name">Лента.ру</p>
-          </div>
-          <div class="search-results__card">
-            <img class="search-results__card-image" src="./images/news-sample-pic-4.jpg" alt="Парки — национальное достояние">
-            <p class="search-results__card-date">4 апреля, 2020</p>
-            <h3 class="search-results__title search-results__title_card">Парки — национальное достояние</h3>
-            <p class="search-results__card-description">
-              В 2016 году Америка отмечала важный юбилей:
-              сто лет назад здесь начала складываться система национальных парков —
-              охраняемых территорий, где и сегодня каждый может приобщиться к природе.
-            </p>
-            <p class="search-results__card-agency-name">Лента.ру</p>
-          </div>
-          <div class="search-results__card">
-            <img class="search-results__card-image" src="./images/news-sample-pic-5.jpg" alt="Лесные огоньки: история одной фотографии">
-            <p class="search-results__card-date">4 апреля, 2020</p>
-            <h3 class="search-results__title search-results__title_card">Лесные огоньки: история одной фотографии</h3>
-            <p class="search-results__card-description">
-              Фотограф отвлеклась от освещения суровой политической реальности Мексики,
-              чтобы запечатлеть ускользающую красоту одного
-              из местных чудес природы.
-            </p>
-            <p class="search-results__card-agency-name">Лента.ру</p>
-          </div>
-          <div class="search-results__card">
-            <img class="search-results__card-image" src="./images/news-sample-pic-6.jpg" alt="«Первозданная тайга»: новый фотопроект Игоря Шпиленка">
-            <p class="search-results__card-date">4 апреля, 2020</p>
-            <h3 class="search-results__title search-results__title_card">«Первозданная тайга»: новый фотопроект Игоря Шпиленка</h3>
-            <p class="search-results__card-description">
-              Знаменитый фотограф снимает первозданные леса России, чтобы рассказать о необходимости их сохранения.
-              В этот раз он отправился в Двинско-Пинежскую тайгу, где...
-            </p>
-            <p class="search-results__card-agency-name">Лента.ру</p>
-          </div> -->
+
+          <!-- Список карточек новостей -->
+
+        <p class="error-element hidden"></p>
         </div>
         <button class="search-results__show-more-button">Показать ещё</button>
       </div>
@@ -110,6 +50,10 @@
         <img class="search-results__not-found-icon" src="./images/notfound.svg" alt="Ничего не найдено">
         <h3 class="search-results__title">Ничего не найдено</h3>
         <p class="search-results__subtitle">К сожалению по вашему запросу ничего не найдено.</p>
+      </div>
+      <div class="search-results__server-error hidden">
+        <h3 class="search-results__title">Во время запроса произошла ошибка</h3>
+        <p class="search-results__subtitle">Возможно, проблема с соединением или сервер недоступен. Подождите немного и попробуйте ещё раз</p>
       </div>
       <div class="search-results__preloader-block hidden">
         <div class="search-results__preloader"></div>
@@ -123,8 +67,10 @@
         <div class="about__description">
           <h2 class="content-title">Об авторе</h2>
           <div class="about__description-text">
-            <p class="content-paragraph-text">Это блок с описанием автора проекта. Здесь следует указать, как вас зовут, чем вы занимаетесь, какими технологиями разработки владеете.</p>
-            <p class="content-paragraph-text">Также можно рассказать о процессе обучения в Практикуме, чему вы тут научились, и чем можете помочь потенциальным заказчикам.</p>
+            <p class="content-paragraph-text">Меня зовут Иван Маркин, я начинающий фронтенд-разработчик.</p>
+            <p class="content-paragraph-text">Последние 7 месяцев я учился в Яндекс.Практикуме, изучил основы JS (ES6+), освоил HTML, CSS и принципы современной адаптивной верстки. Получил базовые навыки работы с Git и Webpack.</p>
+            <p class="content-paragraph-text">Мой многолетний опыт работы дизайнеом позволяет полностью спроектировать, а также собрать для вас несложный проект с нуля.</p>
+            <p class="content-paragraph-text">Или я могу стать частью команды разработки в качестве junior-специалиста.</p>
           </div>
         </div>
       </div>
@@ -146,6 +92,6 @@
     </div>
   </footer>
 
-  <script type="module" src="main.b692ea2f4bad82be87bc.js"></script>
+  <script type="module" src="main.9fb283151b491218068e.js"></script>
 </body>
 </html>
