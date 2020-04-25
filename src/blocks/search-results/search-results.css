@@ -13,6 +13,7 @@
 @import url(./__card-description/search-results__card-description.css);
 @import url(./__card-agency-name/search-results__card-agency-name.css);
 @import url(./__show-more-button/search-results__show-more-button.css);
+@import url(./__server-error/search-results__server-error.css);
 
 .search-results {
   width: 100%;

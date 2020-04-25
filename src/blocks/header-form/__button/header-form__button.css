@@ -19,8 +19,12 @@
   cursor: pointer;
 }
 
-.header-form__button:focus {
+.header-form__button:active {
   background-color: #2a65cc;
+  outline: none;
+}
+
+.header-form__button:focus {
   outline: none;
 }
 

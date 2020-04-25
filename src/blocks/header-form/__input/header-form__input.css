@@ -21,8 +21,8 @@
 
 .header-form__input:focus {
   outline: none;
-  transform: scaleY(1.1) scaleX(1.12);
-  border-radius: 32px;
+  /* transform: scaleY(1.1) scaleX(1.12);
+  border-radius: 32px; */
 }
 
 @media (max-width: 768px) {

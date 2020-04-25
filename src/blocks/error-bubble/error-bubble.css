@@ -1,0 +1,36 @@
+@keyframes error-animate {
+  0% {
+    transform: translateX(-3px);
+  }
+  50% {
+    transform: translateX(3px);
+  }
+  100% {
+    transform: translateX(-3px);
+  }
+}
+
+.error-bubble {
+  position: absolute;
+  top: 10px;
+  left: -285px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+  color: #fff;
+  width: 275px;
+  height: 45px;
+  background: url(../../images/error-bubble.svg) no-repeat;
+  background-size: contain;
+  margin: 0;
+  padding: 0;
+  opacity: 0;
+  transition: opacity .3s;
+}
+
+.error-bubble_active {
+  opacity: 1;
+  animation: error-animate 1s ease-in-out infinite both;
+}

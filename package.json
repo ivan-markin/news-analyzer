@@ -44,8 +44,10 @@
   "dependencies": {
     "babel-polyfill": "^6.26.0",
     "browserslist-useragent": "^3.0.2",
-    "core-js": "^3.4.1",
-    "flickity": "^2.2.1"
+    "core-js": "^3.6.5",
+    "flickity": "^2.2.1",
+    "moment": "^2.24.0",
+    "moment-locales-webpack-plugin": "^1.2.0"
   },
   "browserslist": [
     "chrome 64",
