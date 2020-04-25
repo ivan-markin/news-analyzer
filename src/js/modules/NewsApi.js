@@ -7,7 +7,8 @@ export default class NewsApi {
     this.currentDate = currentDate;
   }
   getNews(keyword) {
-    let url = 'http://newsapi.org/v2/everything?' +
+    const serverUrl = process.env.NODE_ENV === 'development' ? 'http:' : 'https:';
+    let url = serverUrl + '//newsapi.org/v2/everything?' +
           'q=' + keyword + '&' +
           'from=' + this.lastDate + '&' +
           'to=' + this.currentDate + '&' +
