@@ -13,6 +13,7 @@
 @import url(./blocks/footer/footer.css);
 @import url(./blocks/button-link/button-link.css);
 @import url(./blocks/hidden/hidden.css);
+@import url(./blocks/error-bubble/error-bubble.css);
 
 body {
   min-width: 320px;
